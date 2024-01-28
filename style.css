@@ -120,8 +120,50 @@ header .header-content h1 {
     align-items: center;
 
 }
-section{
-    width: 100%;
+section, .section-1{
+    width: 100% !important;
     height: 100vh;
-    background: transparent;
+    background: var(--section-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+#section-1 h1, #section-2 h1{
+    font-size: 54px;
+    font-weight: bold;
+}
+#section-1 img{
+    width: 500px;
+}
+#section-1 .text-section{
+    max-width: 500px;
+}
+#section-1 .text-section h4{
+    font-weight: normal;
+}
+/* section 2 */
+#section-2, .section-2{
+    width: 100% !important;
+    height: 100vh;
+    background: var(--section-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    
+}
+#section-2 h1{
+    font-size: 54px;
+    font-weight: bold;   
+}
+#section-2 .text-section{
+    max-width: 650px; 
+}
+#section-2 h4{
+    font-weight: normal;
+}
+#section-2 img{
+   width: 500px;
 }
